@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Meta Tags -->
+    <title>Geek Fácil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="title" content="Geek Fácil">
+    <meta name="author" content="Rodrigo Avila">
+    <meta name="description" content="Marketplace P2P de games usados utilizando a tecnologia Blockchain">
+    <meta name="keywords" content="geek, games, blockchain" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Fontawesome -->
+    <link type="text/css" href="vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Swipe CSS -->
+    <link type="text/css" href="css/swipe.css" rel="stylesheet">
+
+
+</head>
+
+
+
+<body>
+    <!--Menu-->
+    <header class="header-global" id="home">
+        <nav id="navbar-main" aria-label="Primary navigation" class="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-light navbar-theme-secondary">
+            <div class="container position-relative">
+                <a class="navbar-brand mr-lg-4" href="index.html">
+                    <img class="navbar-brand-dark" src="assets/img/logogeekfacil.png" alt="Logo light">
+                    <img class="navbar-brand-light" src="assets/img/logogeekfacil.png" alt="Logo Geek">
+                </a>
+                <div class="navbar-collapse collapse mr-auto" id="navbar_global">
+                    <div class="navbar-collapse-header">
+                        <div class="row">
+                            <div class="col-6 collapse-brand">
+
+                            </div>
+                            <div class="col-6 collapse-close">
+                                <a href="#navbar_global" class="fas fa-times" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" title="close" aria-label="Toggle navigation"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+
+                        <li class="nav-item">
+                            <a href="#sobre" class="nav-link">
+                            Sobre
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#social" class="nav-link">
+                            Redes Sociais
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#download" class="nav-link">
+                            Download
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <br>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-md btn-tertiary text-white d-md-inline animate-up-2" data-toggle="modal" data-target="#navbar_modal">Entrar<i class="fas fa-rocket ml-2"></i></button>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+                <div class="d-flex align-items-center">
+
+
+                    <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Botão modal-->
+    <div class="modal fade" id="navbar_modal" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <h5 class="modal-title" id="navbar_modal"></h5>
+                    <form class="form-signin">
+                        <div class="form-label-group"> <input type="email" id="inputEmail" class="form-control" placeholder="E-mail" required autofocus> <label for="inputEmail"></label> </div>
+                        <div class="form-label-group"> <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required> <label for="inputPassword"></label> </div>
+                        <div class="custom-control custom-checkbox mb-3"> <input type="checkbox" class="custom-control-input" id="customCheck1"> <label class="custom-control-label" for="customCheck1">Lembrar senha</label> </div> <button class="btn btn-lg btn-tertiary text-white btn-block text-uppercase"
+                            data-dismiss="modal" type="submit">Entrar</button>
+                        <hr class="my-4"> <button class="btn btn-lg btn-google btn-block text-uppercase" data-toggle="modal" data-target="#navbar_modal" data-dismiss="modal" type="submit"><i class="fab fa-google mr-2"></i> Entrar com Google</button> <button class="btn btn-lg btn-facebook btn-block text-uppercase"
+                            data-dismiss="modal" type="submit"><i class="fab fa-facebook-f mr-2"></i> Entrar com Facebook</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fim do Menu-->
+
+
+    <main>
+        <!-- conteúdo -->
+        <section class="section section-header text-dark pb-md-8">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 text-center mb-5 mb-md-7">
+                        <h1 class="display-2 font-weight-bolder mb-4">
+                            Simples & Confiável
+                        </h1>
+                        <img src="assets/img/blockchain.png"></img>
+                        <p class="lead mb-4 mb-lg-5">Marketplace P2P de games usados utilizando a tecnologia Blockchain</p>
+                        <div>
+                            <a href="#" class="btn btn-dark btn-download-app mb-xl-0 mr-2 mr-md-3">
+                                <span class="d-flex align-items-center">
+                                    <span class="icon icon-brand mr-2 mr-md-3"><span class="fab fa-apple"></span></span>
+                                <span class="d-inline-block text-left">
+                                        <small class="font-weight-normal d-none d-md-block">Disponível na</small> App Store 
+                                    </span>
+                                </span>
+                            </a>
+                            <a href="#" class="btn btn-dark btn-download-app">
+                                <span class="d-flex align-items-center">
+                                    <span class="icon icon-brand mr-2 mr-md-3"><span class="fab fa-google-play"></span></span>
+                                <span class="d-inline-block text-left">
+                                        <small class="font-weight-normal d-none d-md-block">Disponível na</small> Google Play
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-10 justify-content-center">
+                        <img class="d-none d-md-inline-block" src="assets/img/illustrations/scene.png" alt="Mobile App Mockup">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-lg py-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                        <div class="card border-0 bg-white text-center p-1">
+                            <div class="card-header bg-white border-0 pb-0">
+                                <div class="icon icon-lg icon-primary mb-4">
+                                    <span class="fas fa-money-bill-wave"></span>
+                                </div>
+                                <h2 class="h3 text-dark m-0">Melhor economia</h2>
+                            </div>
+                            <div class="card-body">
+                                <p>
+                                    Ganhe mais com suas vendas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                        <div class="card border-0 bg-white text-center p-1">
+                            <div class="card-header bg-white border-0 pb-0">
+                                <div class="icon icon-lg icon-primary mb-4">
+                                    <span class="fas fa-map-marked-alt"></span>
+                                </div>
+                                <h2 class="h3 text-dark m-0">Rastreie melhor</h2>
+                            </div>
+                            <div class="card-body">
+                                <p>
+                                    Obtenha atualizações de entrega em tempo real do carrinho até a casa em um só lugar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card border-0 bg-white text-center p-1">
+                            <div class="card-header bg-white border-0 pb-0">
+                                <div class="icon icon-lg icon-primary mb-4">
+                                    <span class="fas fa-shopping-basket"></span>
+                                </div>
+                                <h2 class="h3 text-dark m-0">Compre melhor</h2>
+                            </div>
+                            <div class="card-body">
+                                <p>
+                                    Economize com suas compras.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-lg" id="sobre">
+            <div class="container">
+                <div class="row justify-content-center mb-5 mb-lg-7">
+                    <div class="col-12 col-lg-8 text-center">
+                        <h2 class="h1 mb-4">Melhor em todos os sentidos</h2>
+                        <p class="lead">Uma rede de pessoa para pessoa utilizando a tecnologia Blockchain para a segurança, controle das transações, economia de dinheiro e renda extra para os usuários. </p>
+                    </div>
+                </div>
+                <div class="row row-grid align-items-center mb-5 mb-lg-7">
+                    <div class="col-12 col-lg-5">
+                        <h2 class="mb-4">Compre e Pague rapidamente</h2>
+                        <p>Transações realizadas mais rápida que os sites concorrentes.</p>
+                        <p>Histórico com todas as transações realizadas na plataforma.</p>
+                        <a href="#" class="btn btn-dark mt-3 animate-up-2">
+                            Saiba mais
+                            <span class="icon icon-xs ml-2">
+                                <i class="fas fa-external-link-alt"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6 ml-lg-auto">
+                        <img src="assets/img/illustrations/scene-3.png" class="w-100" alt="">
+                    </div>
+                </div>
+                <div class="row row-grid align-items-center mb-5 mb-lg-7">
+                    <div class="col-12 col-lg-5 order-lg-2">
+                        <h2 class="mb-4">Construção de uma Comunidade</h2>
+                        <p>Todos os feedbacks serão recebidos e estudados.</p>
+                        <p>Controle de avaliações serão rigorosos com a ajuda da comunidade.</p>
+                        <a href="#" class="btn btn-dark mt-3 animate-up-2">
+                            Saiba mais
+                            <span class="icon icon-xs ml-2">
+                                <i class="fas fa-external-link-alt"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6 mr-lg-auto">
+                        <img src="assets/img/illustrations/login.png" class="w-100" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card border-light p-4">
+                            <div class="card-body">
+                                <h2 class="display-2 mb-2">63,3%</h2>
+                                <span>Da população Brasileira tem o hábito de jogar games eletrônicos.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card border-light p-4">
+                            <div class="card-body">
+                                <h2 class="display-2 mb-2">R$5.6B</h2>
+                                <span> Mercado de games no Brasil.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card border-light p-4">
+                            <div class="card-body">
+                                <h2 class="display-2 mb-2">5,3%</h2>
+                                <span>Crescimento do mercado até 2022.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section section-sm py-0">
+            <div class="container">
+                <div class="row text-center mb-5">
+                    <div class="col">
+                        <h2 class="display-3 mb-4">Somos apoiados e acelerados por:</h2>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col d-flex justify-content-center flex-wrap">
+                        <a href="http://www.startuprio.rj.gov.br/">
+                            <img class="img-fluid mx-auto mb-3" src="assets/img/StartupRio_pretoverde.png" alt="StartupRio brand">
+                        </a>
+                    </div>
+                    <p class="lead">O StartupRio é o programa de capacitação e aceleração de empreendedores digitais da Secretaria de Ciências, Tecnologia e Inovação do Governo do Estado do Rio de Janeiro.<br class="d-none d-lg-inline-block"></p>
+                </div>
+            </div>
+        </div>
+        <div class="section bg-soft" id="download">
+            <figure class="position-absolute top-0 left-0 w-100 d-none d-md-block mt-n3">
+                <svg class="fill-soft" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 43.4" style="enable-background:new 0 0 1920 43.4;" xml:space="preserve">
+                   <path d="M0,23.3c0,0,405.1-43.5,697.6,0c316.5,1.5,108.9-2.6,480.4-14.1c0,0,139-12.2,458.7,14.3 c0,0,67.8,19.2,283.3-22.7v35.1H0V23.3z"></path>
+                </svg>
+            </figure>
+            <div class="container">
+                <div class="row row-grid align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <span class="h5 text-muted mb-2 d-block">Download do App</span>
+                        <h2 class="display-3 mb-4">Comece em segundos</h2>
+                        <p class="lead text-muted">Conecte-se e inicie imediamente as suas compras e vendas.</p>
+                        <div class="mt-4 mt-lg-5">
+                            <a href="#download" class="btn btn-dark btn-download-app mb-xl-0 mr-2 mr-md-3">
+                                <span class="d-flex align-items-center">
+                                    <span class="icon icon-brand mr-2 mr-md-3"><span class="fab fa-apple"></span></span>
+                                <span class="d-inline-block text-left">
+                                        <small class="font-weight-normal d-none d-md-block">Disponível na</small> App Store 
+                                    </span>
+                                </span>
+                            </a>
+                            <a href="#" class="btn btn-dark btn-download-app">
+                                <span class="d-flex align-items-center">
+                                    <span class="icon icon-brand mr-2 mr-md-3"><span class="fab fa-google-play"></span></span>
+                                <span class="d-inline-block text-left">
+                                        <small class="font-weight-normal d-none d-md-block">Disponível na</small> Google Play
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 ml-lg-auto">
+                        <img class="d-none d-lg-inline-block" src="assets/img/illustrations/scene-3.png" alt="Mobile App Illustration">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Fim do conteúdo-->
+    <!--Rodapé-->
+    <footer class="footer py-5 pt-lg-6">
+
+        <div class="sticky-right">
+            <a href="#home" class="icon icon-primary icon-md btn btn-icon-only btn-white border border-soft shadow-soft animate-up-3">
+                <span class="fas fa-chevron-up"></span>
+            </a>
+        </div>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-4">
+                    <p id="social">Redes Sociais</p>
+                    <ul class="social-buttons mb-5 mb-lg-0">
+                        <li>
+                            <a href="https://twitter.com/geekfacil" aria-label="twitter social link" class="icon icon-md icon-twitter mr-3">
+                                <span class="fab fa-twitter"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/geekfacil/" class="icon icon-md icon-facebook mr-3" aria-label="facebook social link">
+                                <span class="fab fa-facebook"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/geekfacil" aria-label="instagram social link" class="icon icon-md ins-ic mr-3">
+                                <span class="fab fa-instagram"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/rodrigooavila" aria-label="github social link" class="icon icon-md icon-github mr-3">
+                                <span class="fab fa-github"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-5 mb-lg-0">
+                    <span class="h5">Geek Fácil</span>
+                    <ul class="footer-links mt-2">
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#social">Redes Sociais</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="#navbar_modal">Início</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 mb-5 mb-lg-0">
+                    <span class="h5 mb-3 d-block">Newsletter</span>
+                    <form action="#">
+                        <div class="form-row mb-2">
+                            <div class="col-12">
+                                <input type="email" class="form-control mb-2" placeholder="Digite seu e-mail" name="email" aria-label="Subscribe form" required>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-dark shadow-soft btn-block" data-loading-text="Sending">
+                                <span>Inscreva-se</span>
+                            </button>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="text-muted font-small m-0">Sem spam</p>
+                </div>
+            </div>
+            <hr class="bg-light my-2">
+            <div class="row pt-2 pt-lg-5">
+                <div class="col mb-md-0">
+                    <a href="index.html" class="d-flex justify-content-center">
+                        <img src="assets/img/logogeekfacil.png" height="25" class="mb-3" alt="GeekFácil Logo">
+                    </a>
+                    <div class="d-flex text-center justify-content-center align-items-center" role="contentinfo">
+                        <p class="font-weight-normal font-small mb-0">© Geek Fácil 2020-<span class="current-year">2020</span>. Todos direitos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Fim do rodapé-->
+    <!-- Core -->
+    <script src="vendor/popper.js/dist/umd/popper.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendor/headroom.js/dist/headroom.min.js"></script>
+
+    <!-- Vendor JS -->
+    <script src="vendor/onscreen/dist/on-screen.umd.min.js"></script>
+    <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <!-- Swipe JS -->
+    <script src="assets/js/swipe.js"></script>
+
+</body>
+
+</html>
